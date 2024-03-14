@@ -22,7 +22,7 @@ jobs:
         go-version: '1.20'
 
     - name: Build-Date-Package
-      run: go build -v go/date
+      run: go build -v ./date
 
     - name: Test-Date-Package
-      run: go test -v go/date
+      run: go test -v ./date
